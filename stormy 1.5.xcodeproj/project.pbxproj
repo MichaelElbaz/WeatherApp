@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		4CEAEEF01B24CDCB0085CDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEAEEEF1B24CDCB0085CDDE /* AppDelegate.swift */; };
 		4CEAEEF21B24CDCB0085CDDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEAEEF11B24CDCB0085CDDE /* ViewController.swift */; };
-		4CEAEEF51B24CDCB0085CDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEAEEF31B24CDCB0085CDDE /* Main.storyboard */; };
 		4CEAEEF71B24CDCB0085CDDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEAEEF61B24CDCB0085CDDE /* Images.xcassets */; };
 		4CEAEEFA1B24CDCB0085CDDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEAEEF81B24CDCB0085CDDE /* LaunchScreen.xib */; };
 		4CEAEF061B24CDCB0085CDDE /* stormy_1_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEAEF051B24CDCB0085CDDE /* stormy_1_5Tests.swift */; };
+		4CEAEF101B24CE110085CDDE /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEAEF0F1B24CE110085CDDE /* CurrentWeather.swift */; };
+		4CEAEF131B24CE960085CDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEAEF111B24CE960085CDDE /* Main.storyboard */; };
+		4CEAEF151B24CEEB0085CDDE /* CurrentWeather.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CEAEF141B24CEEB0085CDDE /* CurrentWeather.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +32,14 @@
 		4CEAEEEE1B24CDCB0085CDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CEAEEEF1B24CDCB0085CDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEAEEF11B24CDCB0085CDDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CEAEEF41B24CDCB0085CDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CEAEEF61B24CDCB0085CDDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CEAEEF91B24CDCB0085CDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4CEAEEFF1B24CDCB0085CDDE /* stormy 1.5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stormy 1.5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEAEF041B24CDCB0085CDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CEAEF051B24CDCB0085CDDE /* stormy_1_5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stormy_1_5Tests.swift; sourceTree = "<group>"; };
+		4CEAEF0F1B24CE110085CDDE /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentWeather.swift; path = ../../../../Downloads/StormyS1V7/Stormy/CurrentWeather.swift; sourceTree = "<group>"; };
+		4CEAEF121B24CE960085CDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../Stormy/Stormy/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CEAEF141B24CEEB0085CDDE /* CurrentWeather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CurrentWeather.plist; path = ../../../../Downloads/CurrentWeather.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,8 @@
 			children = (
 				4CEAEEEF1B24CDCB0085CDDE /* AppDelegate.swift */,
 				4CEAEEF11B24CDCB0085CDDE /* ViewController.swift */,
-				4CEAEEF31B24CDCB0085CDDE /* Main.storyboard */,
+				4CEAEF0F1B24CE110085CDDE /* CurrentWeather.swift */,
+				4CEAEF111B24CE960085CDDE /* Main.storyboard */,
 				4CEAEEF61B24CDCB0085CDDE /* Images.xcassets */,
 				4CEAEEF81B24CDCB0085CDDE /* LaunchScreen.xib */,
 				4CEAEEED1B24CDCB0085CDDE /* Supporting Files */,
@@ -107,6 +112,7 @@
 		4CEAEF031B24CDCB0085CDDE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CEAEF141B24CEEB0085CDDE /* CurrentWeather.plist */,
 				4CEAEF041B24CDCB0085CDDE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CEAEEF51B24CDCB0085CDDE /* Main.storyboard in Resources */,
+				4CEAEF131B24CE960085CDDE /* Main.storyboard in Resources */,
 				4CEAEEFA1B24CDCB0085CDDE /* LaunchScreen.xib in Resources */,
 				4CEAEEF71B24CDCB0085CDDE /* Images.xcassets in Resources */,
 			);
@@ -202,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CEAEF151B24CEEB0085CDDE /* CurrentWeather.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEAEEF21B24CDCB0085CDDE /* ViewController.swift in Sources */,
+				4CEAEF101B24CE110085CDDE /* CurrentWeather.swift in Sources */,
 				4CEAEEF01B24CDCB0085CDDE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,20 +244,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4CEAEEF31B24CDCB0085CDDE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CEAEEF41B24CDCB0085CDDE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CEAEEF81B24CDCB0085CDDE /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4CEAEEF91B24CDCB0085CDDE /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		4CEAEF111B24CE960085CDDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CEAEF121B24CE960085CDDE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
